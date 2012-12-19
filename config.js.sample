@@ -1,0 +1,19 @@
+module.exports.sitename = "LongPosts";
+module.exports.title = "Home";
+
+module.exports.admin_userid = process.env.ADMIN_USERID || "your_userid_here";
+
+module.exports.siteurl = process.env.SITEURL || "http://localhost:5000/";
+
+module.exports.mongo_uri = process.env.MONGOLAB_URI || "mongodb://localhost/adnblogs";
+
+module.exports.adn_consumer_key = process.env.ADN_CONSUMER_KEY || "your_adn_consumer_key_here";
+module.exports.adn_consumer_secret = process.env.ADN_CONSUMER_SECRET || "your_adn_consumer_secret_key_here";
+module.exports.adn_application_access_token = process.env.ADN_APPLICATION_ACCESS_TOKEN || "your_adn_application_access_token_here";
+module.exports.adn_callback = process.env.ADN_CALLBACK || "http://localhost:5000/oauth/return";
+
+module.exports.express_session_secret = process.env.EXPRESS_SESSION_SECRET || "some_random_key_here";
+
+module.exports.shortid_seed = process.env.SHORTID_SEED || 123456789;
+
+module.exports.ga_id = process.env.GA_ID || "google_analytics_id_here";
