@@ -4,7 +4,8 @@ adnblog is an App.net application which allows users to create
 long-form posts by inserting the text body inside of an app.net post
 annotation. Formatting of the post is supported with Markdown syntax.
 
-andblog is a node.js app which can run on heroku. It uses express, mongo, and connect-auth... among other things.
+andblog is a node.js app which can run on heroku. It uses express,
+mongo, and connect-auth... among other things.
 
 It is publically available at [LongPosts.com](http://longposts.com).
 
@@ -33,10 +34,11 @@ heroku addons:add mongolab:starter # free 240mg mongo tier
 
 use foreman for local heroku testing
 
-Copy `config.js.sample` to `config.js` and replace appropriate
-values. **DO NOT PUT SENSITIVE KEYS OR INFORMATION IN THE SOURCE CODE
-EVER. PUT THEM IN CONFIG.JS AND REFERENCE THEM FROM THE CODE. ALSO
-NEVER COMMIT CONFIG.JS**
+**DO NOT PUT SENSITIVE KEYS OR INFORMATION IN THE SOURCE CODE
+EVER. PUT THEM IN ENVIRONMENT VARIABLES AND REFERENCE THEM FROM
+CONFIG.JS**
+
+See `exports.sample.txt` for environment variables you will need to set.
 
 ## Contributing
 

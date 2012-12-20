@@ -1,0 +1,15 @@
+# copy and paste these lines into your shell
+# where you run foreman
+#
+# change values to your sepcific setup
+
+export ADMIN_USER="1" # your adn userid
+export SITEURL="http://localhost:5000/"
+export MONGOLAB_URI="mongodb://localhost/adnblogs"
+export ADN_CONSUMER_KEY="your_adn_consumer_key_here"
+export ADN_CONSUMER_SECRET="your_adn_consumer_secret_here"
+export ADN_APPLICATION_ACCESS_TOKEN="your_adn_application_token_here"
+export ADN_CALLBACK="http://localhost:5000/oauth/return"
+export EXPRESS_SESSION_SECRET="some_random_string_here"
+export SHORTID_SEED=123456789
+export GA_ID="your_google_analytics_id_here"
