@@ -28,9 +28,9 @@ annotation format:
 
 To setup run the following commands:
 
-npm install -d
-heroku apps:create --stack cedar <app_name_here>
-heroku addons:add mongolab:starter # free 240mg mongo tier
+    npm install -d
+    heroku apps:create --stack cedar <app_name_here>
+    heroku addons:add mongolab:starter # free 240mg mongo tier
 
 use foreman for local heroku testing
 
